@@ -1,0 +1,7 @@
+.fav-recipes-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 2%;
+}

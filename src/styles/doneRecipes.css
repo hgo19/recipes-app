@@ -1,0 +1,35 @@
+.buttons-container-done-recipes {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-container-done-recipes button {
+  background-color: transparent;
+  border: 1px solid var(--third-color);
+  color: var(--third-color);
+  font-size: 0.9rem;
+}
+
+.buttons-container-done-recipes button:hover {
+  background-color: var(--third-color);
+  color: var(--secondary-color);
+}
+
+.done-recipes-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.card a {
+  color: var(--third-color);
+  text-decoration: none;
+}
+
+.share-button {
+  background-color: transparent;
+}
+
+.card span {
+  color: var(--third-color);
+}

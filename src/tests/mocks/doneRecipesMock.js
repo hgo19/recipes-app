@@ -1,0 +1,35 @@
+const doneRecipesMock = [{
+  id: '213',
+  type: 'meal',
+  nationality: 'nacionalidade-da-receita',
+  category: 'categoria-da-receita-ou-texto-vazio',
+  alcoholicOrNot: 'alcoholic-ou-non-alcoholic-ou-texto-vazio',
+  name: 'nome-da-receita-1',
+  image: 'imagem-da-receita1',
+  doneDate: '12/08/2021',
+  tags: ['deu', 'bom', 'demais'],
+},
+{
+  id: '321',
+  type: 'meal',
+  nationality: 'nacionalidade-da-receita-ou-',
+  category: 'categoria-da-receita',
+  alcoholicOrNot: '',
+  name: 'nome-da-receita-2',
+  image: 'imagem-da-receita2',
+  doneDate: '31/05/2015',
+  tags: ['deu', 'bom', 'demais'],
+},
+{
+  id: '123',
+  type: 'drink',
+  nationality: '',
+  category: 'xablau',
+  alcoholicOrNot: 'alcoholic',
+  name: 'nome-da-receita-drink',
+  image: 'imagem-da-receita-drink',
+  doneDate: '01/01/2021',
+  tags: [],
+}];
+
+export default doneRecipesMock;

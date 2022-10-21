@@ -1,0 +1,74 @@
+.Finish {
+  text-decoration: line-through;
+}
+
+.recipe-inprogress-container {
+  background-color: red;
+}
+
+.recipe-img {
+  height: 200px;
+  object-fit: cover;
+  width: 360px;
+}
+
+.contair-text h1, h3 {
+  align-items: center;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.contair-text h1 {
+  background-color: var(--secondary-color);
+  color: var(--third-color);
+}
+
+.contair-text h3 {
+  background-color: var(--third-color);
+  color: var(--secondary-color);
+}
+
+.contair-text p {
+  background-color: white;
+  border-radius: 1%;
+  font-size: 1rem;
+  font-weight: 400;
+  justify-content: center;
+  margin: 2% 0 0 5px;
+  padding: 5px;
+  width: 97%;
+}
+
+.checkbox-input {
+  background-color: white;
+  border-radius: 1%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 0 10px 5px;
+  padding: 5px;
+  width: 97%;
+}
+
+.recipe-inprogress-main button {
+  background-color: var(--third-color);
+  color: var(--secondary-color);
+  font-weight: 700;
+  margin-bottom: 1%;
+}
+
+.div-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-buttons button {
+  background-color: var(--third-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+  padding: 3px;
+  width: 100%;
+}

@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(34, 34, 34);
+}
+
+.recipes-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipes-filter button {
+  background-color: transparent;
+  border: 1px solid var(--third-color);
+  color: var(--third-color);
+  font-size: 0.9rem;
+}
+
+.recipes-filter button:hover {
+  background-color: var(--third-color);
+  color: var(--secondary-color);
+}
+
+
+.recipes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 5%;
+  padding-bottom: 100px;
+}
+
+.recipes-container a {
+  color: var(--third-color);
+  text-align: center;
+  text-decoration: none;
+}
+
+.card-color {
+  background-color: rgb(83, 83, 83);
+  padding: 5px;
+  width: 18rem;
+}
+
+.card-img {
+  border: 1px solid black;
+}
+
+.card-name:hover {
+  opacity: 0.8;
+}
