@@ -23,7 +23,7 @@
 .infos-box {
   align-content: center;
   background-color: var(--secondary-color);
-  color: var(--third-color);
+  color: var(--sixth-color);
   display: flex;
   justify-content: space-evenly;
   padding: 3px;
@@ -90,12 +90,12 @@
 }
 
 .carousel-link {
-  color: var(--third-color);
+  color: var(--sixth-color);
   text-decoration: none;
 }
 
 .carousel-link a {
-  color: var(--third-color);
+  color: var(--sixth-color);
   text-decoration: none;
 }
 
@@ -103,7 +103,7 @@
   background-color: var(--third-color);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: var(--secondary-color);
+  color: var(--sixth-color);
   font-weight: 700;
   margin-left: 5.4px;
   width: 97%;
@@ -111,7 +111,7 @@
 
 .back-button {
   background-color: var(--third-color);
-  color: var(--secondary-color);
+  color: var(--sixth-color);
   font-weight: 700;
 }
 

@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(34, 34, 34);
+  background-color: var(--primary-color);
 }
 
 .recipes-filter {
@@ -37,7 +37,7 @@ body {
 }
 
 .card-color {
-  background-color: rgb(83, 83, 83);
+  background-color: var(--card-color);
   padding: 5px;
   width: 18rem;
 }

@@ -24,12 +24,12 @@
 
 .contair-text h1 {
   background-color: var(--secondary-color);
-  color: var(--third-color);
+  color: var(--sixth-color);
 }
 
 .contair-text h3 {
   background-color: var(--third-color);
-  color: var(--secondary-color);
+  color: var(--sixth-color);
 }
 
 .contair-text p {
@@ -55,7 +55,7 @@
 
 .recipe-inprogress-main button {
   background-color: var(--third-color);
-  color: var(--secondary-color);
+  color: var(--sixth-color);
   font-weight: 700;
   margin-bottom: 1%;
 }
@@ -67,7 +67,7 @@
 
 .div-buttons button {
   background-color: var(--third-color);
-  color: var(--secondary-color);
+  color: var(--sixth-color);
   cursor: pointer;
   padding: 3px;
   width: 100%;

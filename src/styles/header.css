@@ -7,7 +7,7 @@
 }
 
 .header-title {
-  color: var(--secondary-color);
+  color: var(--sixth-color  );
 }
 
 .header-button {
@@ -30,8 +30,7 @@
 }
 
 .header-img {
-  filter: invert(13%) sepia(93%) saturate(177%)
-    hue-rotate(22deg) brightness(90%) contrast(119%);
+  filter: invert(89%) sepia(63%) saturate(649%) hue-rotate(320deg) brightness(100%) contrast(93%);
   width: 30px;
 }
 

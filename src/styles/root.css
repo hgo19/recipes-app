@@ -1,13 +1,17 @@
 :root {
 
-  --main-color: #cfdbd5;
+  --primary-color: #ffedcc;
 
-  --secondary-color: #242423;
+  --secondary-color: #780000;
 
-  --third-color: #f5cb5c;
+  --third-color: #C1121F;
 
-  --fourth-color: #333533;
+  --fourth-color: #C1121F;  
 
   --fifth-color: #e8eddf;
+
+  --sixth-color: #f5cb5c;
+
+  --card-color: #fcd181;
 
 }
