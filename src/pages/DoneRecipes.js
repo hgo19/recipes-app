@@ -53,7 +53,7 @@ export default function DoneRecipes(props) {
     >
       <div className="card card-color">
         <Link
-          to={ `/meals/${mealObj.id}` }
+          to={ `/recipes-app/meals/${mealObj.id}` }
         >
           <img
             src={ mealObj.image }
@@ -64,7 +64,7 @@ export default function DoneRecipes(props) {
         </Link>
         <div className="card-body card-name">
           <Link
-            to={ `/meals/${mealObj.id}` }
+            to={ `/recipes-app/meals/${mealObj.id}` }
           >
             <h3 className="card-title" data-testid={ `${index}-horizontal-name` }>
               {mealObj.name}
@@ -117,7 +117,7 @@ export default function DoneRecipes(props) {
     >
       <div className="card card-color">
         <Link
-          to={ `/drinks/${drinkObj.id}` }
+          to={ `/recipes-app/drinks/${drinkObj.id}` }
         >
           <img
             src={ drinkObj.image }
@@ -128,7 +128,7 @@ export default function DoneRecipes(props) {
         </Link>
         <div className="card-body card-name">
           <Link
-            to={ `/drinks/${drinkObj.id}` }
+            to={ `/recipes-app/drinks/${drinkObj.id}` }
           >
             <h3 className="card-title" data-testid={ `${index}-horizontal-name` }>
               {drinkObj.name}

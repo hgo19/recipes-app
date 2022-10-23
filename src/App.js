@@ -19,32 +19,32 @@ function App() {
   return (
     <RecipesProvider>
       <Switch>
-        <Route exact path="/" component={ Login } />
-        <Route exact path="/meals" component={ Meals } />
+        <Route exact path="/recipes-app" component={ Login } />
+        <Route exact path="/recipes-app/meals" component={ Meals } />
         <Route
           exact
-          path="/meals/:id"
+          path="/recipes-app/meals/:id"
           render={ (props) => <MealRecipe { ...props } /> }
         />
         <Route
           exact
-          path="/meals/:id/in-progress"
+          path="/recipes-app/meals/:id/in-progress"
           component={ MealInProgress }
         />
-        <Route exact path="/drinks" component={ Drinks } />
+        <Route exact path="/recipes-app/drinks" component={ Drinks } />
         <Route
           exact
-          path="/drinks/:id"
+          path="/recipes-app/drinks/:id"
           render={ (props) => <DrinkRecipe { ...props } /> }
         />
         <Route
           exact
-          path="/drinks/:id/in-progress"
+          path="/recipes-app/drinks/:id/in-progress"
           component={ DrinkInProgress }
         />
-        <Route exact path="/profile" component={ Profile } />
-        <Route exact path="/done-recipes" component={ DoneRecipes } />
-        <Route exact path="/favorite-recipes" component={ FavoriteRecipes } />
+        <Route exact path="/recipes-app/profile" component={ Profile } />
+        <Route exact path="/recipes-app/done-recipes" component={ DoneRecipes } />
+        <Route exact path="/recipes-app/favorite-recipes" component={ FavoriteRecipes } />
       </Switch>
     </RecipesProvider>
 

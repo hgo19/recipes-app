@@ -42,7 +42,7 @@ function Login(props) {
     saveLocalStorageItem(DRINKS_TOKEN_KEY, 1);
     saveLocalStorageItem(MEALS_TOKEN_KEY, 1);
     userDispatch({ type: 'LOGIN', payload: email });
-    history.push('/meals');
+    history.push('/recipes-app/meals');
   };
 
   useEffect(() => {

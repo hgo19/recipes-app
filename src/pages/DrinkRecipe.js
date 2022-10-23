@@ -49,7 +49,7 @@ export default function DrinkRecipe() {
   });
 
   const handleClick = () => {
-    history.push(`/drinks/${id}/in-progress`);
+    history.push(`/recipes-app/drinks/${id}/in-progress`);
   };
 
   return (

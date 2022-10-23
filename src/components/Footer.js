@@ -12,7 +12,7 @@ function Footer(props) {
         type="button"
         onClick={ () => {
           const { history } = props;
-          history.push('/drinks');
+          history.push('/recipes-app/drinks');
         } }
         className="footer-button"
         src={ drinkIcon }
@@ -28,7 +28,7 @@ function Footer(props) {
         type="button"
         onClick={ () => {
           const { history } = props;
-          history.push('/meals');
+          history.push('/recipes-app/meals');
         } }
         className="footer-button"
       >

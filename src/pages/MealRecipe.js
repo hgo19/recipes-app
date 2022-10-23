@@ -50,7 +50,7 @@ export default function MealRecipe() {
   });
 
   const handleClick = () => {
-    history.push(`/meals/${id}/in-progress`);
+    history.push(`/recipes-app/meals/${id}/in-progress`);
   };
 
   return (

@@ -12,7 +12,7 @@ export default function Recipes({ recipesList, categories, recipesFor }) {
           <Link
             key={ index }
             className="card card-color"
-            to={ `/meals/${meal.idMeal}` }
+            to={ `/recipes-app/meals/${meal.idMeal}` }
             data-testid={ `${index}-recipe-card` }
           >
             <img
@@ -36,7 +36,7 @@ export default function Recipes({ recipesList, categories, recipesFor }) {
           <Link
             key={ index }
             className="card card-color"
-            to={ `/drinks/${drink.idDrink}` }
+            to={ `/recipes-app/drinks/${drink.idDrink}` }
             data-testid={ `${index}-recipe-card` }
           >
             <img

@@ -12,7 +12,7 @@ import '../styles/header.css';
 export default function Header({ title, search, history, path }) {
   const [toggle, setToggle] = useState(false);
   const handleClick = () => {
-    history.push('/profile');
+    history.push('/recipes-app/profile');
   };
   const handleToggle = () => {
     setToggle(!toggle);

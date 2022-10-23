@@ -40,7 +40,7 @@ export default function Profile(props) {
         <button
           type="button"
           onClick={ () => {
-            history.push('/done-recipes');
+            history.push('/recipes-app/done-recipes');
           } }
           data-testid="profile-done-btn"
         >
@@ -52,7 +52,7 @@ export default function Profile(props) {
         <button
           type="button"
           onClick={ () => {
-            history.push('/favorite-recipes');
+            history.push('/recipes-app/favorite-recipes');
           } }
           data-testid="profile-favorite-btn"
         >
@@ -65,7 +65,7 @@ export default function Profile(props) {
           type="button"
           onClick={ () => {
             clearLocalStorage();
-            history.push('/');
+            history.push('/recipes-app');
           } }
           data-testid="profile-logout-btn"
         >
