@@ -94,7 +94,7 @@ export default function RecommendCarousel({ pathname }) {
           swipeable
         >
           {sixRecipes.map((e, index) => (
-            <Link key={ index } to={ `/drinks/${e.idDrink}` } className="carousel-link">
+            <Link key={ index } to={ `/recipes-app/drinks/${e.idDrink}` } className="carousel-link">
               <div
                 className="card carousel-card"
                 style={ { width: '180px' } }
@@ -175,7 +175,7 @@ export default function RecommendCarousel({ pathname }) {
           swipeable
         >
           {sixRecipes.map((e, index) => (
-            <Link key={ index } to={ `/meals/${e.idMeal}` } className="carousel-link">
+            <Link key={ index } to={ `/recipes-app/meals/${e.idMeal}` } className="carousel-link">
               <div
                 className="card carousel-card"
                 style={ { width: '180px' } }
